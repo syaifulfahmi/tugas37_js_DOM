@@ -5,7 +5,7 @@
         <title>Belajar Javascript - NIOMIC</title>
  </head>
  <body>
-        <button type="button" onclick="klik()" name="button">Jalankan</button>
+        <button type="button" onclick="Tombol()" name="button">Jalankan</button>
         <br />
         <br />
         <hr />
@@ -19,9 +19,9 @@
         <p id="p3">contoh</p>
         <hr />
         <script type="text/javascript">
-                function klik() {
+                function Tombol() {
                         
-                        var a = document.getElementsByTagName("klik")[0]
+                        var a = document.getElementsByTagName("button")[0]
                         var x = a.attributes.getNamedItem("onclick").value
                         document.getElementById("p1").innerHTML = x
                         var y = a.attributes.item(0).name
